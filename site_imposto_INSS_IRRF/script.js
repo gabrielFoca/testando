@@ -6,8 +6,8 @@ function enviar() {
     var nome_pessoa = document.getElementById("txt").value;
     var valor_salario = Number(document.getElementById("bruto").value);
 
-    if (valor_salario === 0 ) {
-        alert("O valor do salario bruto deve ser informado!");
+    if (valor_salario === 0) {
+        alert("O valor do seu salario bruto deve ser informado!");
         return;
     }
 
