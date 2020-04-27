@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Imposto</title>
+</head>
+<body>
+    <header>Informe os seus dados</header>
+    <section>
+    <div id = "dv">   
+    <p><label>Nome:</label>         
+        <input type="text" name="txt" maxlength="30" id="txt" pattern="[a-zA-Z]+" required/>
+    </p>
+    <p>Salario bruto:
+        <input type="number" name="bruto" id="bruto" required/>
+        <input type="submit" value="enviar" onclick="enviar()">
+    </p>  
+    </div>
+
+    <div id = "res">
+        Esperando dados.....
+    </div>
+    </section>
+    
+    <footer> <p>&copy; Sites II </p></footer>
+    <script src = "script.js"> </script>
+</body>
+</html>
