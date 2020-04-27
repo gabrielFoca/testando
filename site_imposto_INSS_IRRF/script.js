@@ -37,6 +37,6 @@ function enviar() {
         var valor_inss = valor_salario * percentual_inss;
         var valor_irrf = valor_salario * percentual_irrf;
         var salario_liquido = valor_salario - valor_inss - valor_irrf;
-        res.innerHTML = `ola ${nome_pessoa} seu salario liquido: ${salario_liquido.toFixed(2).toString()}`
+        res.innerHTML = `ola ${nome_pessoa}, seu salario liquido é de: ${salario_liquido.toFixed(2).toString()}`
     }
 }
